@@ -1,4 +1,4 @@
-\# SQL Exercises
+# SQL Exercises
 
 
 
@@ -6,7 +6,7 @@ SQL exercises and small database projects I am building while learning backend d
 
 
 
-\## Project: Bank Database
+## Project: Bank Database
 
 
 
@@ -14,7 +14,7 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\## Planned content
+## Planned content
 
 
 
@@ -28,7 +28,7 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\## What I want to practice
+## What I want to practice
 
 
 
@@ -40,7 +40,7 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\## Status
+## Status
 
 
 
