@@ -18,9 +18,9 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\* \[ ] Database schema (`schema.sql`): customers, accounts, transactions
+\* \[*] Database schema (`schema.sql`): customers, accounts, transactions
 
-\* \[ ] Sample data (`data.sql`)
+\* \[*] Sample data (`data.sql`)
 
 \* \[ ] Queries (`queries.sql`): joins, aggregations, subqueries
 
