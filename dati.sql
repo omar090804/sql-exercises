@@ -1,0 +1,55 @@
+insert into clienti (id, nome, cognome, citta, data_iscrizione) values
+(1, 'Mario',  'Rossi',   'Milano',  '2024-03-15'),
+(2, 'Laura',  'Bianchi', 'Roma',    '2024-05-02'),
+(3, 'omar', 'hassanein',   'Milano',  '2026-01-01'),
+(4, 'Luca',   'Verdi',   'Torino',  '2024-09-11'),
+(5, 'Sara',   'Russo',   'Napoli',  '2025-01-08'),
+(6, 'Paolo',  'Romano',  'Milano',  '2025-02-14'),
+(7, 'Elena',  'Conti',   'Bologna', '2025-03-30'),
+(8, 'Marco',  'Neri',    'Firenze', '2025-04-18');
+
+insert into conto (id, iban, cliente_id, tipo) values
+(1,  'IT60X0542811101000000000001', 1, 'CORRENTE'),
+(2,  'IT60X0542811101000000000002', 1, 'RISPARMIO'),
+(3,  'IT60X0542811101000000000003', 2, 'CORRENTE'),
+(4,  'IT60X0542811101000000000004', 3, 'CORRENTE'),
+(5,  'IT60X0542811101000000000005', 4, 'CORRENTE'),
+(6,  'IT60X0542811101000000000006', 5, 'CORRENTE'),
+(7,  'IT60X0542811101000000000007', 5, 'RISPARMIO'),
+(8,  'IT60X0542811101000000000008', 6, 'CORRENTE'),
+(9,  'IT60X0542811101000000000009', 7, 'CORRENTE'),
+(10, 'IT60X0542811101000000000010', 3, 'RISPARMIO');
+
+insert into movimenti (id, conto_id, data, importo, descrizione) values
+(1,  1,  '2025-01-10',  1500.00, 'Stipendio'),
+(2,  1,  '2025-01-12',   -50.25, 'Spesa supermercato'),
+(3,  1,  '2025-01-20',  -800.00, 'Affitto'),
+(4,  1,  '2025-02-10',  1500.00, 'Stipendio'),
+(5,  1,  '2025-02-14',  -120.50, 'Cena e regalo'),
+(6,  2,  '2025-01-15',  2000.00, 'Versamento risparmio'),
+(7,  2,  '2025-03-01',   500.00, 'Versamento risparmio'),
+(8,  3,  '2025-01-11',  1800.00, 'Stipendio'),
+(9,  3,  '2025-01-25',  -650.00, 'Affitto'),
+(10, 3,  '2025-02-11',  1800.00, 'Stipendio'),
+(11, 3,  '2025-02-18',   -75.90, 'Bolletta luce'),
+(12, 4,  '2025-02-03',  2200.00, 'Stipendio'),
+(13, 4,  '2025-02-05',   -35.00, 'Abbonamento palestra'),
+(14, 4,  '2025-03-03',  2200.00, 'Stipendio'),
+(15, 4,  '2025-03-10',  -980.00, 'Viaggio'),
+(16, 5,  '2025-02-20',   200.00, 'Versamento contanti'),
+(17, 5,  '2025-02-22',  -150.00, 'Prelievo bancomat'),
+(18, 5,  '2025-03-05',  -300.00, 'Assicurazione'),
+(19, 6,  '2025-02-07',  1600.00, 'Stipendio'),
+(20, 6,  '2025-02-15',   -45.80, 'Spesa supermercato'),
+(21, 6,  '2025-03-07',  1600.00, 'Stipendio'),
+(22, 7,  '2025-02-28',  1000.00, 'Versamento risparmio'),
+(23, 8,  '2025-03-12',  2500.00, 'Stipendio'),
+(24, 8,  '2025-03-15', -1200.00, 'Affitto'),
+(25, 8,  '2025-03-20',   -60.00, 'Prelievo bancomat'),
+(26, 9,  '2025-04-02',  1400.00, 'Stipendio'),
+(27, 9,  '2025-04-10',   -22.50, 'Pranzo'),
+(28, 9,  '2025-04-12',  -300.00, 'Bonifico'),
+(29, 10, '2025-03-08',  3000.00, 'Versamento risparmio'),
+(30, 10, '2025-04-01',  -500.00, 'Prelievo');
+
+

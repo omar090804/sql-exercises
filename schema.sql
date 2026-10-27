@@ -8,7 +8,8 @@ create table clienti(
 create table conto(
     id integer primary key,
     iban varchar(27) unique not null,
-    cliente_id integer references clienti(id)
+    cliente_id integer references clienti(id),
+    tipo VARCHAR(20)
 );
 create table movimenti(
     id integer primary key,
