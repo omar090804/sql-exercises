@@ -18,9 +18,11 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\* \[*] Database schema (`schema.sql`): customers, accounts, transactions
+\* \[X] Database schema (`schema.sql`): customers, accounts, transactions
 
-\* \[*] Sample data (`data.sql`)
+\* \[X] Sample data (`data.sql`)
+
+\* \[X]Create and populate the PostgreSQL database
 
 \* \[ ] Queries (`queries.sql`): joins, aggregations, subqueries
 
@@ -38,11 +40,17 @@ A small relational database that models a bank: customers, accounts and transact
 
 \* Writing clear and commented queries
 
+## Technologies
 
+\* PostgreSQL
+
+\* SQL
+
+\* Java and Spring Boot (planned)
 
 ## Status
 
-
+Work in progress. Currently practicing SQL queries and relational database design.
 
 Work in progress.
 
