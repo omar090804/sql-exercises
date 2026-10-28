@@ -18,15 +18,15 @@ A small relational database that models a bank: customers, accounts and transact
 
 
 
-\* \[X] Database schema (`schema.sql`): customers, accounts, transactions
+-[x] Database schema (`schema.sql`): customers, accounts, transactions
 
-\* \[X] Sample data (`data.sql`)
+-[x] Sample data (`data.sql`)
 
-\* \[X]Create and populate the PostgreSQL database
+-[x]Create and populate the PostgreSQL database
 
-\* \[ ] Queries (`queries.sql`): joins, aggregations, subqueries
+-[x] Queries (`queries.sql`): joins, aggregations, subqueries
 
-\* \[ ] Notes on what each query does
+-[x] Notes on what each query does
 
 
 
