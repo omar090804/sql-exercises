@@ -12,7 +12,8 @@ A small relational database that models a bank: customers, accounts and transact
 - [x] Sample data (`data.sql`)
 - [x] Create and populate the PostgreSQL database
 - [x] Basic queries (`query.sql`): SELECT, WHERE, ORDER BY, LIKE, aggregations, GROUP BY
-- [ ] JOIN queries
+- [x] Basic JOIN queries (two tables)
+- [ ] Advanced JOINs: three tables, LEFT JOIN, JOIN with GROUP BY
 - [x] INSERT, UPDATE, DELETE
 - [ ] Subqueries and CTEs
 - [x] Comments describing what each query does

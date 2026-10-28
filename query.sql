@@ -59,5 +59,14 @@ select * from clienti where id = 9;
 delete from clienti where id = 9;
 select count(*) from clienti;   -- deve tornare a 8
 
--- 10. Elenco conti con nome e cognome del titolare (JOIN)
--- TODO
+-- 11. Elenco conti con nome e cognome del titolare (JOIN)
+select c.iban, c.tipo, t.nome, t.cognome
+from conto c
+join clienti t on c.cliente_id = t.id;
+--12.I conti dei clienti di Milano (JOIN + where). Attesi: 5 righe, di Rossi, Hassanein e Romano.
+select c.iban, c.tipo, t.nome, t.cognome
+from conto c
+join clienti t on c.cliente_id = t.id
+where t.citta='Milano';
+--Livello 2: JOIN a tre tabelle 
+--todo();
