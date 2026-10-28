@@ -13,7 +13,7 @@ A small relational database that models a bank: customers, accounts and transact
 - [x] Create and populate the PostgreSQL database
 - [x] Basic queries (`query.sql`): SELECT, WHERE, ORDER BY, LIKE, aggregations, GROUP BY
 - [ ] JOIN queries
-- [ ] INSERT, UPDATE, DELETE
+- [x] INSERT, UPDATE, DELETE
 - [ ] Subqueries and CTEs
 - [x] Comments describing what each query does
 

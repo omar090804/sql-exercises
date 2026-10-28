@@ -44,5 +44,20 @@ from movimenti;
 -- 9. Numero di conti per tipo
 select tipo, count(*) as numero_conti from conto group by tipo;
 
+-- 10. INSERT, UPDATE, DELETE
+
+-- Inserisco un nuovo cliente
+insert into clienti (id, nome, cognome, citta, data_iscrizione)
+values (9, 'Luca', 'Rossi', 'Milano', '2021-02-21');
+select * from clienti where id = 9;
+
+-- Cambio la città del cliente 9
+update clienti set citta = 'Roma' where id = 9;
+select * from clienti where id = 9;
+
+-- Cancello il cliente 9
+delete from clienti where id = 9;
+select count(*) from clienti;   -- deve tornare a 8
+
 -- 10. Elenco conti con nome e cognome del titolare (JOIN)
 -- TODO
