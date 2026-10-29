@@ -68,5 +68,23 @@ select c.iban, c.tipo, t.nome, t.cognome
 from conto c
 join clienti t on c.cliente_id = t.id
 where t.citta='Milano';
---Livello 2: JOIN a tre tabelle 
+--Livello 2:
+--13 JOIN a tre tabelle
+select m.data, m.importo, m.descrizione, c.iban, t.cognome
+from movimenti m
+join conto c on  m.conto_id=c.id
+join clienti t on c.cliente_id=t.id
+order by m.data;
+--14. . Saldo di ogni conto con IBAN e cognome del titolare (JOIN + SUM + GROUP BY)
+select sum(m.importo) as saldo ,c.iban ,t.cognome
+from movimenti m
+join conto c on  m.conto_id=c.id
+join clienti t on c.cliente_id=t.id
+GROUP by c.iban,t.cognome
+order by saldo desc;
 --todo();
+-- 15. Clienti senza conti (LEFT JOIN)
+select cl.nome, cl.cognome
+from clienti cl
+left join conto c on c.cliente_id = cl.id
+where c.id is null;
